@@ -6,7 +6,7 @@
 - 
 ## Unity
 -
-## 알고리즘
+## Algorithm
 -
 ## ETC
 - [markdown](./ETC/markdown.md)
