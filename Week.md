@@ -9,5 +9,5 @@
 ## 알고리즘
 -
 ## ETC
-- [markdown](../ETC/markdown.md)
+- [markdown](../TIL/ETC/markdown.md)
 - github
