@@ -16,7 +16,7 @@ git rm --cached 파일명(로컬 저장소에는 남겨놓되 commit시 원격�
 
    -> ***Local Repository***  
 git commit -m "메모할 내용"(특정 시점에서 변경된 정보를 기록하여 로컬 저장소에 저장함)
-
+git log(커밋 기록 확인)    
    -> ***Remote Repository***     
 git push -u origin master(로컬 저장소master의 내용을 원격 저장소origin로 저장)  
 origin: 원격주소, master: 브랜치  
