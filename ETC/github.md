@@ -3,28 +3,32 @@ Git: 분산형 버전 관리 시스템(Version Control System)
 Git을 활용할 수 있게 돕는 사이트 중 하나이다.
 <br/>
 
-***구조: 스테이지 -> 로컬 저장소 -> 원격 저장소***  
+***구조: Staging Area -> Local Repository -> Remote Repository***  
 
 과정은 아래와 같다.  
 ```
-   -> ***Staging Area***   
-git init(깃 저장소를 초기화 후, history가 저장되는 .git 폴더 생성, 저장소 내에서 파일을 add 가능한 상태가 됨)  
-git add 파일명(깃이 주변 모든 파일을 지켜봄 = tracking, staged 상태로 만듦) 
+   -> Staging Area    
+git init(깃 저장소 초기화 + history가 저장되는 .git 생성 = 저장소 내 파일이 add 가능한 상태)  
+git add 특정 파일명 또는 . (깃이 파일을 지켜봄 = 무대에 올려staged 추적tracking) 
 git status(저장소 상태 확인)   
 git rm 파일명(로컬, 원격저장소에서 파일 삭제) 
-git rm --cached 파일명(로컬 저장소에는 남겨놓되 commit시 원격저장소에서 파일 삭제) -> .gitignore 파일로 제외하는 게 편함
+git rm --cached 파일명(로컬 저장소에는 남겨놓되 commit시 원격저장소에서 파일 삭제)  
+평소에는 .gitignore 파일로 그룹으로 묶어 제외하는 방법이 편리  
+그러나 ***잘못 add한 경우 staging 영역에서 삭제하고자 rm을 사용***  
 
-   -> ***Local Repository***  
+   Staging Area -> Local Repository    
 git commit -m "메모할 내용"(특정 시점에서 변경된 정보를 기록하여 로컬 저장소에 저장함)
-git log(커밋 기록 확인)    
-   -> ***Remote Repository***     
+git log(커밋 기록 확인)  
+
+   Local Repository -> Remote Repository       
 git push -u origin master(로컬 저장소master의 내용을 원격 저장소origin로 저장)  
 origin: 원격주소, master: 브랜치  
                         
-로컬 저장소 <- 원격 저장소   
+   Local Repository <- Remote Repository        
 git clone(원격저장소를 복사해 붙여넣음 즉, 기존 로컬 파일을 덮어 죽여버리니 초기에만 실행)  
 git fetch(원격저장소 최신 메타데이터 확인)  
 git pull(원격저장소 최신 메타데이터 확인fetch + 병합merge)  
+***원격저장소에 수정사항이 생겨 푸시가 안될 경우 pull을 사용***
 git fork(다른 프로젝트 저장소 불러옴)  
 ```
 ## 기억해야 할 단어  
