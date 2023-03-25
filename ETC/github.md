@@ -5,7 +5,7 @@ Git을 활용할 수 있게 돕는 사이트 중 하나이다.
 
 ***구조: Staging Area -> Local Repository -> Remote Repository***  
 
-과정은 아래와 같다.  
+한 장으로 요약된 과정은 아래와 같다.  
 ```
    -> Staging Area    
 git init(깃 저장소 초기화 + history가 저장되는 .git 생성 = 저장소 내 파일이 add 가능한 상태)  
@@ -31,9 +31,10 @@ git pull(원격저장소 최신 메타데이터 확인fetch + 병합merge)
 ***원격저장소에 수정사항이 생겨 푸시가 안될 경우 pull을 사용***
 git fork(다른 프로젝트 저장소 불러옴)  
 ```
-
+수정사항 생기면 stage에서 내려오므로
+tracking되고 있지만 staged되지 않은 파일을 staged 상태로 만들기 위해 git add(tracking + staged)
 초록 글씨/붉은 글씨: staged 여부  
-modified, unmodified: 수정사항 여부    
+modified, unmodified: 수정사항 여부      
 
 ## 기억해야 할 단어  
 
