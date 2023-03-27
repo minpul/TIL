@@ -7,7 +7,7 @@
 - [C# 연산자](./C#/C#_연산자.md)
 - [C# 제어문](./C#/C#_제어문.md)
 ## Unity
-- [20230327].(/Unity/Unity_20230327.md)
+- [20230327](./Unity/Unity_20230327.md)
 ## Algorithm
 -
 ## ETC
