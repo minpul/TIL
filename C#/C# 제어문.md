@@ -1,17 +1,17 @@
-# Á¦¾î¹®
-±âº» Á¦¾î¹®(If, else, else if, while, do while, switch, for, continue, goto, return)  
+# ì œì–´ë¬¸
+ê¸°ë³¸ ì œì–´ë¬¸(If, else, else if, while, do while, switch, for, continue, goto, return)  
 ### foreach()?
-¹è¿­ÀÌ³ª ÄÃ·º¼ÇÀÇ ³¡±îÁö ¼øÈ¸ÇÏ¸ç °¢ µ¥ÀÌÅÍ¿¡ Â÷·Ê´ë·Î Á¢±ÙÇÏ¿© ³¡¿¡ µµ´ÞÇÏ¸é ¹Ýº¹ÀÌ Á¾·áµÈ´Ù.   
-ex) foreach(µ¥ÀÌÅÍÇü½Ä º¯¼ö¸í in ¹è¿­_¶Ç´Â_ÄÃ·º¼Ç) ÇüÅÂ·Î »ç¿ë   
+ë°°ì—´ì´ë‚˜ ì»¬ë ‰ì…˜ì˜ ëê¹Œì§€ ìˆœíšŒí•˜ë©° ê° ë°ì´í„°ì— ì°¨ë¡€ëŒ€ë¡œ ì ‘ê·¼í•˜ì—¬ ëì— ë„ë‹¬í•˜ë©´ ë°˜ë³µì´ ì¢…ë£Œëœë‹¤.   
+ex) foreach(ë°ì´í„°í˜•ì‹ ë³€ìˆ˜ëª… in ë°°ì—´_ë˜ëŠ”_ì»¬ë ‰ì…˜) í˜•íƒœë¡œ ì‚¬ìš©   
 ### Parse() vs convert   
-º¯È¯ ½ÇÆÐ½Ã(°ªÀÌ nullÀÎ °æ¿ìµµ) ¹ÝÈ¯°ª ¿¹¿ÜÃ³¸®ÇÏ³Ä 0ÀÌ³Ä   
-###Pasrse() vs TryParse()   
-º¯È¯ ½ÇÆÐ½Ã ¹ÝÈ¯°ª ÀúÀåÇÔ   
+ë³€í™˜ ì‹¤íŒ¨ì‹œ(ê°’ì´ nullì¸ ê²½ìš°ë„) ë°˜í™˜ê°’ ì˜ˆì™¸ì²˜ë¦¬í•˜ëƒ 0ì´ëƒ   
+### Pasrse() vs TryParse()   
+ë³€í™˜ ì‹¤íŒ¨ì‹œ ë°˜í™˜ê°’ ì €ìž¥í•¨   
 ex) int.TryParse(s, out int out_i)   
-Switch Á¶°Ç½ÄÀº Á¤¼ö, ¹®ÀÚ¿­, µ¥ÀÌÅÍ Çü½Ä¸¸ Áö¿ø   
-WhenÀý Ãß°¡ °¡´É  
-Switch½Ä, ¹®¿¡ ºÎµ¿¼Ò¼öÇü »ç¿ë °¡´ÉÇÏ³ª Á¤¹Ðµµ ¹®Á¦·Î ±ÇÀå X    
+Switch ì¡°ê±´ì‹ì€ ì •ìˆ˜, ë¬¸ìžì—´, ë°ì´í„° í˜•ì‹ë§Œ ì§€ì›   
+Whenì ˆ ì¶”ê°€ ê°€ëŠ¥  
+Switchì‹, ë¬¸ì— ë¶€ë™ì†Œìˆ˜í˜• ì‚¬ìš© ê°€ëŠ¥í•˜ë‚˜ ì •ë°€ë„ ë¬¸ì œë¡œ ê¶Œìž¥ X    
 Console.ReadLine(), Console.WriteLine()  
-### Å°¿öµå?   
-ÄÄÆÄÀÏ·¯¿¡ Æ¯º°ÇÑ ÀÇ¹Ì·Î ¹Ì¸® Á¤ÀÇµÇ¾î ¿¹¾àµÈ ½Äº°ÀÚ  
+### í‚¤ì›Œë“œ?   
+ì»´íŒŒì¼ëŸ¬ì— íŠ¹ë³„í•œ ì˜ë¯¸ë¡œ ë¯¸ë¦¬ ì •ì˜ë˜ì–´ ì˜ˆì•½ëœ ì‹ë³„ìž  
 ex) using, in, when, out, ref ...  
