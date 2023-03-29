@@ -3,7 +3,7 @@
 <br/>  
 
 ## C#  
-- [C# 데이터 보관](https://github.com/minpul/TIL/blob/main/C%23/C%23%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
+- [C# 데이터 보관](./씨샵/데이터_보관.md)
 - [C# 연산자](https://github.com/minpul/TIL/blob/main/C%23/C%23%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
 - [C# 제어문](https://github.com/minpul/TIL/blob/main/C%23/C%23%20%EC%A0%9C%EC%96%B4%EB%AC%B8.md)
 ## Unity
