@@ -23,7 +23,7 @@ git rm --cached 파일명(로컬 파일 그대로 두고 commit, push하면 원�
    ### Staging Area -> Local Repository    
 git commit -m "메모할 내용"(특정 시점에서 변경된 정보를 기록하여 로컬 저장소에 저장함)
 git log(커밋 기록 확인)  
-git reset --hard commit_id(커밋해놓은 파일의 경우 위에서 확인한 특정 버전으로 되돌릴 수 있다.) 
+git reset --hard commit_id(커밋해놓은 파일의 경우 위에서 확인한 특정 버전으로 되돌릴 수 있다.)   
 커밋하지 않은 파일을 되돌리려면 git fsck --lost-found, git show 작업  
 <br/>
    ### Local Repository -> Remote Repository       
