@@ -41,3 +41,21 @@ double Plus(double a, double b)
 장점  
 1. 코드의 일관성  
 2. 높은 생산성
+<br/>
+### 가변 개수의 인수 
+인수의 개수가 정해지지 않았을 경우 사용한 인수 앞에 *params*라는 키워드 사용하여 간단히 해결  
+그래서 오버로딩은 매개변수의 개수가 정해지지 않았을 때보다는  
+*형식이 정해지지 않*았거나 *명명된 매개변수에 인수를 할당*할 때 이용  
+### 명명된 인수?
+```
+static void PrintProfile(string name, string lunch)
+{
+	Console.WriteLine("Name:{0}, Lunch:{1}", name, lunch
+}  
+
+static void Main(string[] args)
+{
+	PrintProfile(lunch: "rice", name: "이민영")
+}
+```
+순서를 맞춰 입력하지 않아도 알아서 할당된다.
