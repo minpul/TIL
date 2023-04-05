@@ -112,3 +112,53 @@ class 파생 클래스 : 기반 클래스
 기반 클래스의 생성자가 매개변수를 입력받도록 선언되어 있는 경우 base 키워드를 이용    
 그러면 파생 클래스의 생성자에서 기반 클래스의 생성자로 매개변수를 넘겨줄 수 있음  
 public Derived(string Nmae) : base(Name) 이런 형태  
+### 기반 클래스와 파생 클래스 사이 변환 ?????????????????????????????????????????????????????????
+민영, 민서는 다른 개체이나 인간이라는 공통점 때문에 묶임  
+```
+class Human
+{
+	public void Say() { ... }
+}
+class Minyoung : Human
+{
+	public void drawing() { ... }
+}
+class Minsu : Human
+{
+	public void readingbook() { ... }
+}
+```
+이를 다음과 같이 익숙하게 인간은 인간, 민영은 민영, 민서는 민서로 각각 표현 가능  
+```
+Human human = new Human();
+Human.Say();
+
+Minyoung minyoung = new Minyoung();
+Minyoung.Say();
+Minyoung.drawing();
+
+Minsu minsu = new minsu();
+Minsu.Say();
+Minsu.Readingbook();
+```
+한편 민영도 인간, 민서도 인간, 민호도 인간이라는 코드도 가능  
+```
+Human human = new Human();
+human.Say();
+
+human = new Minyoung();
+human.Say();
+
+Minyoung minyoung = (Minyoung)human;
+minyoung.Say();
+minyoung.draw();
+
+human = new Minsu();
+human.Say();
+
+Minsu minsu = (Minsu)human;
+Minsu.Say();
+Minsu.Readingbook();
+```
+이런식으로 족보를 오르내릴 수 있다.  
+
