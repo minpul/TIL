@@ -201,4 +201,29 @@ if (cat != null) // 변환 실패시 cat은 null이 되기에 작성된 조건
 	cat.Meow
 }
 ```
+### 오버라이딩과 다형성
+다형성Polymorphism은 객체가 여러 형태를 가질 수 있음을 의미
+```
+class ArmorSuite
+{
+	public virtual void Initialize() // 추후 오버라이딩을 하려면 메소드가 virtual 키워드로 선언되어야 함
+	{
+		Console.WirteLine("Armored");
+	}
+}
+라는 베이스에서,
+class IronMan : ArmorSuite
+{
+	//...
+}
 
+class IronMan : ArmorSuite
+{
+	public override void Initialize()
+	{
+		base.Initialize();
+		Console.WriteLine("Repulsor Rays Armed");
+	}
+}
+```
+private로 선언한 메소드는 오버라이딩할 수 없음  
