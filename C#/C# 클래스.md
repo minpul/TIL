@@ -27,12 +27,11 @@ dok은 그 자체에 메모리가 할당되는게 아니고 객체의 *주소*를 가리킴
 1. CLR의 가비지 컬렉터가 언제 작동할지 예측할 수 없음  
 2. 클래스의 조상을 찾아 객체로부터 상속받은 Finalize() 메소드를 호출해야 해서 프로그램 성능 낮아짐  
 3. 사람보다는 가비지 컬렉터가 소멸을 더 잘 처리함  
-<br/>
 ### 정적 필드
 인스턴스에 소속된 필드 vs 클래스에 소속된 필드(static) ?  
 한 프로그램에 서로 같은 인스턴스는 여러개가 존재할 수 있으나 서로 같은 클래스는 존재할 수 없음  
 그래서 어떤 필드가 클래스에 소속된다는 것 = 해당 필드가 프로그램 전체에서 유일하게 존재한다는 것!  
-*static*이 이를 지정하는 한정자, 한정되지 않은 필드는 자동으로 인스턴스에 소속  
+ static이 이를 지정하는 한정자, 한정되지 않은 필드는 자동으로 인스턴스에 소속  
 필드를 선언할 때 앞에 static을 붙여 한정함  
 정적 필드는 인스턴스를 만들지 않더라도 호출 가능
 ### 정적 메소드
@@ -91,10 +90,10 @@ class MyClass
 public, protected, private, internal, protected internal, private  
 퍼블릭: 내/외부 모든 곳에서 접근 가능  
 프로택티드: 자신을 상속한 자식 클래스에서 접근 가능  
-프라이베잇: 클래스의 내부에서 접근 가능  
+프라이빗: 클래스의 내부에서 접근 가능  
 인터널: 같은 어셈블리=프로젝트 파일에 있는 코드에서 public으로 접근 가능  
 프로택티드 인터널: 같은 어셈블리=프로젝트 파일에 있는 코드에서 protected로 접근 가능  
-프라이베잇 프로택티드: 같은 어셈블리=프로젝트 파일에 있는 클래스에서 상속받는 클래스 내부에서 접근 가능  
+프라이빗 프로택티드: 같은 어셈블리=프로젝트 파일에 있는 클래스에서 상속받는 클래스 내부에서 접근 가능  
 ### 상속으로 코드 재활용
 방식은 아래와 같음  
 ```
@@ -114,7 +113,7 @@ class 파생 클래스 : 기반 클래스
 그러면 파생 클래스의 생성자에서 기반 클래스의 생성자로 매개변수를 넘겨줄 수 있음  
 public Derived(string Nmae) : base(Name) 이런 형태  
 *sealed 한정자*를 class 앞에 붙이면 상속이 봉인
-### 기반 클래스와 파생 클래스 사이 변환 ?????????????????????????
+### 기반 클래스와 파생 클래스 사이 변환 ???
 민영, 민서는 다른 개체이나 인간이라는 공통점 때문에 묶임  
 ```
 class Human
@@ -163,7 +162,7 @@ Minsu.Say();
 Minsu.Readingbook();
 ```
 이런식으로 족보를 오르내릴 수 있다.  
-###헷갈려서 적는 풀이
+### 의문 해소
 Human human = new Human();  
 human = new Minyoung(); 에서,   
 human은 참조로 메모리를 가리키는 역할  
@@ -175,13 +174,14 @@ new Minyoung();으로 초기화된 객체가 할당된 메모리를 참조하게 된 것
 mammal.Bark();가 불가능한 이유?  
 이 시점에서는 CLR이 mammal를 Mammal 타입으로 보고 있기에 오류  
 C#은 형식 검사를 엄격하게 하는 강형 언어  
-###강형언어?
+### 강형언어?
 모든 변수의 타입이 컴파일하면서 결정되는 언어  
 변수와 값에서, 형 선언이 변수에 선언되어 있으면 강형, 값에 연결되어 있으면 약형  
 서로 다른 형 사이의 변환이 금지되어 있음
-###is와 as
+### is와 as
 is: 객체가 해당 형식에 해당하는지 검사하여 그 결과를 bool값으로 반환
-as: 형식 변환 연산자와 비슷하나, 형변환에 실패할 때 예외를 던지는 대신 객체 참조를 null로 만듦  
+as: 형식 변환 연산자와 비슷하나, 형변환에 실패할 때 예외를 던지는 대신 객체 참조를 null로 만듦 
+아래는 예시   
 ```
 Human human = new Minyoung();
 Minyoung minyoung;
@@ -211,7 +211,7 @@ class ArmorSuite
 		Console.WirteLine("Armored");
 	}
 }
-라는 베이스에서,
+위 베이스에서,
 class IronMan : ArmorSuite
 {
 	//...
@@ -227,3 +227,66 @@ class IronMan : ArmorSuite
 }
 ```
 private로 선언한 메소드는 오버라이딩할 수 없음  
+### 메소드 숨기기
+```
+class Base
+{
+	public void MyMethod()
+	{
+		Console.WriteLine("Base.MyMethod()");
+	}
+}
+
+class Derived : Base
+{
+	public new void MyMethod()
+	{
+		Console.WriteLine("Derived.MyMethod()");
+	}
+}
+
+Derived derived = new Derived();  
+derived.MyMethod(); // Base.MyMethod()를 감추고 Derived.MyMethod()만 출력  
+```
+*new* 한정자로 수식하여 숨길 수 있다  
+이름 그대로 메소드를 숨기고 있을 뿐 오버라이딩과 다르게 작동함  
+만약 아래와 같이 입력하면 
+```
+Base baseOrDerived = new Derived();
+baseOrDerived.MyMethod(); // 숨겨져있던 "Base.MyMethod();"이 출력됨  
+```
+### 오버라이딩 봉인하기
+클래스 상속 봉인 : 한정자 public
+메소드 오버라이딩 봉인 : 키워드 sealed
+단, "virtual로 선언된 가상 메소드를 오버라이딩한 버전의 메소드"만 봉인 가능  
+why? 애초에 virtual로 선언했다는건 오버라이딩하려 했다는 이야기니까  
+봉인할거면 vitual 선언을 안하면 되는 것
+ex> public sealed override void SealMe()  
+### 읽기 전용 필드
+const double pi = 3.14159265359;
+위는 상수
+```
+class Configuration
+{
+	private readonly int min; // 읽기 전용 필드로 선언하면 생성자 안에서만 초기화가 가능함
+	private readonly int max;
+
+	public Configuration(int v1, int v2)
+	{
+		min = v1;
+		min = v2;
+	}
+}
+```
+### 클래스 중첩
+클래스 안에 클래스를 선언
+```
+class Outer
+{
+	class Inner
+	{
+		...
+	}
+}
+```
+안의 클래스는 자신이 소속된 클래스의 모든 멤버(private까지도)에 자유롭게 접근  
