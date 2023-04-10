@@ -1,69 +1,68 @@
-## Å¬·¡½º
-°´Ã¼ÁöÇâ ÇÁ·Î±×·¡¹Ö(Object Oriented Programming)Àº ÄÚµå¸¦ *°´Ã¼*·Î Ç¥ÇöÇÏ°íÀÚ ÇÏ´Â ÇÁ·Î±×·¡¹Ö ÆÐ·¯´ÙÀÓ  
-Å¬·¡½º: °´Ã¼(=ÀÎ½ºÅÏ½º)ÀÇ ¼Ó¼º°ú ±â´ÉÀ» Á¤ÀÇÇÏ³ª ½ÇÃ¼°¡ ¾ø´Â Ã»»çÁø ¿ªÇÒ  
-ÄÚµå °üÁ¡¿¡¼­ º¸¸é ¶Ç ÇÏ³ªÀÇ *º¹ÇÕ µ¥ÀÌÅÍ Çü½Ä*ÀÌ±âµµ ÇÔ  
+## í´ëž˜ìŠ¤
+ê°ì²´ì§€í–¥ í”„ë¡œê·¸ëž˜ë°(Object Oriented Programming)ì€ ì½”ë“œë¥¼ *ê°ì²´*ë¡œ í‘œí˜„í•˜ê³ ìž í•˜ëŠ” í”„ë¡œê·¸ëž˜ë° íŒ¨ëŸ¬ë‹¤ìž„  
+í´ëž˜ìŠ¤: ê°ì²´(=ì¸ìŠ¤í„´ìŠ¤)ì˜ ì†ì„±ê³¼ ê¸°ëŠ¥ì„ ì •ì˜í•˜ë‚˜ ì‹¤ì²´ê°€ ì—†ëŠ” ì²­ì‚¬ì§„ ì—­í•   
+ì½”ë“œ ê´€ì ì—ì„œ ë³´ë©´ ë˜ í•˜ë‚˜ì˜ *ë³µí•© ë°ì´í„° í˜•ì‹*ì´ê¸°ë„ í•¨  
 <br/>
-ÇÊµå: Å¬·¡½º ³» ¼±¾ðµÈ º¯¼ö  
-¸Þ¼Òµå: Æ¯Á¤ ±â´ÉÀ» ±¸ÇöÇÏ°íÀÚ Á¤ÀÇµÈ ÄÚµåµéÀÇ ÁýÇÕÀ¸·Î ÇÔ¼ö¿Í ºñ½Á  
-¸â¹ö: ÇÊµå¿Í ¸Þ¼Òµå, ÇÁ·ÎÆÛÆ¼, ÀÌº¥Æ® µî Å¬·¡½º ³» ¼±¾ðµÈ ¿ä¼ÒµéÀ» ÀÏÄÂ´Â ¸» 
+í•„ë“œ: í´ëž˜ìŠ¤ ë‚´ ì„ ì–¸ëœ ë³€ìˆ˜  
+ë©”ì†Œë“œ: íŠ¹ì • ê¸°ëŠ¥ì„ êµ¬í˜„í•˜ê³ ìž ì •ì˜ëœ ì½”ë“œë“¤ì˜ ì§‘í•©ìœ¼ë¡œ í•¨ìˆ˜ì™€ ë¹„ìŠ·  
+ë©¤ë²„: í•„ë“œì™€ ë©”ì†Œë“œ, í”„ë¡œí¼í‹°, ì´ë²¤íŠ¸ ë“± í´ëž˜ìŠ¤ ë‚´ ì„ ì–¸ëœ ìš”ì†Œë“¤ì„ ì¼ì»«ëŠ” ë§ 
 <br/>
-### »ý¼ºÀÚ
-Å¬·¡½º´Â º¹ÇÕ µ¥ÀÌÅÍ Çü½ÄÀÌ°í, º¹ÇÕ µ¥ÀÌÅÍ Çü½ÄÀº *ÂüÁ¶ Çü½Ä*À¸·Î »ç¿ëÇØ¾ß ÇÔ    
-Èü¿¡ ½ÇÁ¦ °´Ã¼¸¦ »ý¼ºÇÒ *»ý¼ºÀÚ*°¡ ÇÊ¿ä!  
+### ìƒì„±ìž
+í´ëž˜ìŠ¤ëŠ” ë³µí•© ë°ì´í„° í˜•ì‹ì´ê³ , ë³µí•© ë°ì´í„° í˜•ì‹ì€ *ì°¸ì¡° í˜•ì‹*ìœ¼ë¡œ ì‚¬ìš©í•´ì•¼ í•¨    
+íž™ì— ì‹¤ì œ ê°ì²´ë¥¼ ìƒì„±í•  *ìƒì„±ìž*ê°€ í•„ìš”!  
 ```
 ex> Doggy dok = new Doggy();  
-dokÀº ±× ÀÚÃ¼¿¡ ¸Þ¸ð¸®°¡ ÇÒ´çµÇ´Â°Ô ¾Æ´Ï°í °´Ã¼ÀÇ *ÁÖ¼Ò*¸¦ °¡¸®Å´  
-±×·¡¼­ new ¿¬»êÀÚ¿Í ±âº» »ý¼ºÀÚ Doggy·Î °´Ã¼ *»ý¼º*  
+dokì€ ê·¸ ìžì²´ì— ë©”ëª¨ë¦¬ê°€ í• ë‹¹ë˜ëŠ”ê²Œ ì•„ë‹ˆê³  ê°ì²´ì˜ *ì£¼ì†Œ*ë¥¼ ê°€ë¦¬í‚´  
+ê·¸ëž˜ì„œ new ì—°ì‚°ìžì™€ ê¸°ë³¸ ìƒì„±ìž Doggyë¡œ ê°ì²´ *ìƒì„±*  
 ```
-### ±âº» »ý¼ºÀÚ
-Çü½ÄÀº Å¬·¡½ºÀÌ¸§()  
-ÄÄÆÄÀÏ·¯¿¡¼­ ÀÚµ¿À¸·Î Å¬·¡½ºÀÌ¸§°ú °°Àº »ý¼ºÀÚ¸¦ ¸¸µê  
-»ý¼ºÀÚ¸¦ ÇÏ³ª¶óµµ Á÷Á¢ Á¤ÀÇÇÏ¸é C# ÄÄÆÄÀÏ·¯´Â ÀÌ·¯ÇÑ ±âº» »ý¼ºÀÚ¸¦ ¸¸µéÁö ¾ÊÀ½    
+### ê¸°ë³¸ ìƒì„±ìž
+í˜•ì‹ì€ í´ëž˜ìŠ¤ì´ë¦„()  
+ì»´íŒŒì¼ëŸ¬ì—ì„œ ìžë™ìœ¼ë¡œ í´ëž˜ìŠ¤ì´ë¦„ê³¼ ê°™ì€ ìƒì„±ìžë¥¼ ë§Œë“¦  
+ìƒì„±ìžë¥¼ í•˜ë‚˜ë¼ë„ ì§ì ‘ ì •ì˜í•˜ë©´ C# ì»´íŒŒì¼ëŸ¬ëŠ” ì´ëŸ¬í•œ ê¸°ë³¸ ìƒì„±ìžë¥¼ ë§Œë“¤ì§€ ì•ŠìŒ    
 <br/>
-### Á¾·áÀÚ
-Çü½ÄÀº ~Å¬·¡½ºÀÌ¸§()  
-°´Ã¼¸¦ ¼Ò¸ê½ÃÅ´. ¿À¹ö·Îµù, È£Ãâ, ¸Å°³º¯¼ö, ÇÑÁ¤ÀÚ »ç¿ë X  
-»ç¿ëÀÚ¿¡°Ô Á÷Á¢ »ç¿ëÀ» ±ÇÀåÇÏÁö ¾Ê´Â ÀÌÀ¯  
-1. CLRÀÇ °¡ºñÁö ÄÃ·ºÅÍ°¡ ¾ðÁ¦ ÀÛµ¿ÇÒÁö ¿¹ÃøÇÒ ¼ö ¾øÀ½  
-2. Å¬·¡½ºÀÇ Á¶»óÀ» Ã£¾Æ °´Ã¼·ÎºÎÅÍ »ó¼Ó¹ÞÀº Finalize() ¸Þ¼Òµå¸¦ È£ÃâÇØ¾ß ÇØ¼­ ÇÁ·Î±×·¥ ¼º´É ³·¾ÆÁü  
-3. »ç¶÷º¸´Ù´Â °¡ºñÁö ÄÃ·ºÅÍ°¡ ¼Ò¸êÀ» ´õ Àß Ã³¸®ÇÔ  
+### ì¢…ë£Œìž
+í˜•ì‹ì€ ~í´ëž˜ìŠ¤ì´ë¦„()  
+ê°ì²´ë¥¼ ì†Œë©¸ì‹œí‚´. ì˜¤ë²„ë¡œë”©, í˜¸ì¶œ, ë§¤ê°œë³€ìˆ˜, í•œì •ìž ì‚¬ìš© X  
+ì‚¬ìš©ìžì—ê²Œ ì§ì ‘ ì‚¬ìš©ì„ ê¶Œìž¥í•˜ì§€ ì•ŠëŠ” ì´ìœ   
+1. CLRì˜ ê°€ë¹„ì§€ ì»¬ë ‰í„°ê°€ ì–¸ì œ ìž‘ë™í• ì§€ ì˜ˆì¸¡í•  ìˆ˜ ì—†ìŒ  
+2. í´ëž˜ìŠ¤ì˜ ì¡°ìƒì„ ì°¾ì•„ ê°ì²´ë¡œë¶€í„° ìƒì†ë°›ì€ Finalize() ë©”ì†Œë“œë¥¼ í˜¸ì¶œí•´ì•¼ í•´ì„œ í”„ë¡œê·¸ëž¨ ì„±ëŠ¥ ë‚®ì•„ì§  
+3. ì‚¬ëžŒë³´ë‹¤ëŠ” ê°€ë¹„ì§€ ì»¬ë ‰í„°ê°€ ì†Œë©¸ì„ ë” ìž˜ ì²˜ë¦¬í•¨  
+### ì •ì  í•„ë“œ 
+ì¸ìŠ¤í„´ìŠ¤ì— ì†Œì†ëœ í•„ë“œ vs í´ëž˜ìŠ¤ì— ì†Œì†ëœ í•„ë“œ(static)?  
+í•œ í”„ë¡œê·¸ëž¨ì— ì„œë¡œ ê°™ì€ ì¸ìŠ¤í„´ìŠ¤ëŠ” ì—¬ëŸ¬ê°œê°€ ì¡´ìž¬í•  ìˆ˜ ìžˆìœ¼ë‚˜ ì„œë¡œ ê°™ì€ í´ëž˜ìŠ¤ëŠ” ì¡´ìž¬í•  ìˆ˜ ì—†ìŒ  
+ê·¸ëž˜ì„œ ì–´ë–¤ í•„ë“œê°€ í´ëž˜ìŠ¤ì— ì†Œì†ëœë‹¤ëŠ” ê²ƒ = í•´ë‹¹ í•„ë“œê°€ í”„ë¡œê·¸ëž¨ ì „ì²´ì—ì„œ ìœ ì¼í•˜ê²Œ ì¡´ìž¬í•œë‹¤ëŠ” ê²ƒ!  
+staticì´ ì´ë¥¼ ì§€ì •í•˜ëŠ” í•œì •ìž, í•œì •ë˜ì§€ ì•Šì€ í•„ë“œëŠ” ìžë™ìœ¼ë¡œ ì¸ìŠ¤í„´ìŠ¤ì— ì†Œì†  
+í•„ë“œë¥¼ ì„ ì–¸í•  ë•Œ ì•žì— staticì„ ë¶™ì—¬ í•œì •í•¨  
+ì •ì  í•„ë“œëŠ” ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë§Œë“¤ì§€ ì•Šë”ë¼ë„ í˜¸ì¶œ ê°€ëŠ¥
+### ì •ì  ë©”ì†Œë“œ
+ì—­ì‹œ ì •ì  ë©”ì†Œë“œëŠ” ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë§Œë“¤ì§€ ì•Šë”ë¼ë„ í˜¸ì¶œ ê°€ëŠ¥  
+ì´ì™€ ë°˜ëŒ€ë˜ëŠ” ë¹„ì •ì  ë©”ì†Œë“œ = *ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œ*, ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±í•´ì•¼ë§Œ í˜¸ì¶œ ê°€ëŠ¥  
+ë©”ì†Œë“œë¥¼ ì„ ì–¸í•  ë•Œ ì•žì— staticì„ ë¶™ì—¬ í•œì •  
 <br/>
-### Á¤Àû ÇÊµå
-ÀÎ½ºÅÏ½º¿¡ ¼Ò¼ÓµÈ ÇÊµå vs Å¬·¡½º¿¡ ¼Ò¼ÓµÈ ÇÊµå(static) ?  
-ÇÑ ÇÁ·Î±×·¥¿¡ ¼­·Î °°Àº ÀÎ½ºÅÏ½º´Â ¿©·¯°³°¡ Á¸ÀçÇÒ ¼ö ÀÖÀ¸³ª ¼­·Î °°Àº Å¬·¡½º´Â Á¸ÀçÇÒ ¼ö ¾øÀ½  
-±×·¡¼­ ¾î¶² ÇÊµå°¡ Å¬·¡½º¿¡ ¼Ò¼ÓµÈ´Ù´Â °Í = ÇØ´ç ÇÊµå°¡ ÇÁ·Î±×·¥ ÀüÃ¼¿¡¼­ À¯ÀÏÇÏ°Ô Á¸ÀçÇÑ´Ù´Â °Í!  
-*static*ÀÌ ÀÌ¸¦ ÁöÁ¤ÇÏ´Â ÇÑÁ¤ÀÚ, ÇÑÁ¤µÇÁö ¾ÊÀº ÇÊµå´Â ÀÚµ¿À¸·Î ÀÎ½ºÅÏ½º¿¡ ¼Ò¼Ó  
-ÇÊµå¸¦ ¼±¾ðÇÒ ¶§ ¾Õ¿¡ staticÀ» ºÙ¿© ÇÑÁ¤ÇÔ  
-Á¤Àû ÇÊµå´Â ÀÎ½ºÅÏ½º¸¦ ¸¸µéÁö ¾Ê´õ¶óµµ È£Ãâ °¡´É
-### Á¤Àû ¸Þ¼Òµå
-¿ª½Ã Á¤Àû ¸Þ¼Òµå´Â ÀÎ½ºÅÏ½º¸¦ ¸¸µéÁö ¾Ê´õ¶óµµ È£Ãâ °¡´É  
-ÀÌ¿Í ¹Ý´ëµÇ´Â ºñÁ¤Àû ¸Þ¼Òµå = *ÀÎ½ºÅÏ½º ¸Þ¼Òµå*, ÀÎ½ºÅÏ½º¸¦ »ý¼ºÇØ¾ß¸¸ È£Ãâ °¡´É  
-¸Þ¼Òµå¸¦ ¼±¾ðÇÒ ¶§ ¾Õ¿¡ staticÀ» ºÙ¿© ÇÑÁ¤  
-<br/>
-º¸Åë °´Ã¼ ³»ºÎ µ¥ÀÌÅÍ¸¦ ÀÌ¿ëÇØ¾ß ÇÏ¸é ÀÎ½ºÅÏ½º ¸Þ¼Òµå¸¦ ¼±¾ð, ¾Æ´Ï¸é Á¤Àû ¸Þ¼Òµå·Î ÇÑÁ¤ÇÑ´Ù.  
-### ¾èÀº º¹»ç vs ±íÀº º¹»ç
-¾èÀº º¹»ç: µ¥ÀÌÅÍ¸¦ °¡Á®¿Í »õ·Î¿î ¸Þ¸ð¸®¿¡ ÇÒ´çÇÏ´Â ¹æ½ÄÀÌ ¾Æ´Ñ µ¥ÀÌÅÍ¸¦ ÂüÁ¶ÇÏ´Â Çü½ÄÀÇ º¹»ç ( ½ÇÁ¦ µ¥ÀÌÅÍ 1°³ )    
-±íÀº º¹»ç: µ¥ÀÌÅÍ¸¦ °¡Á®¿Í »õ·Î¿î ¸Þ¸ð¸®¿¡ ÇÒ´çÇÏ´Â ¹æ½ÄÀ» ÃëÇÏ´Â Çü½ÄÀÇ º¹»ç ( ½ÇÁ¦ µ¥ÀÌÅÍ 2°³ )  
-Å¬·¡½º = º¹ÇÕ µ¥ÀÌÅÍ = ÂüÁ¶ Çü½Ä = ±×³É =À¸·Î µ¥ÀÌÅÍ ÇÒ´ç½Ã ¾èÀº º¹»ç°¡ µÊ   
-C#¿¡´Â ÀÌ¸¦ ÀÚµ¿À¸·Î ±¸ºÐÇØÁÖ´Â ±¸¹®ÀÌ µû·Î ¾øÀ¸¹Ç·Î,  
-°´Ã¼¸¦ Èü¿¡ »õ·Î ÇÒ´çÇÏ¿© ¸â¹ö¸¦ ÀÏÀÏÈ÷ º¹»çÇØ³ÖÀ» ±¸¹®À» Á÷Á¢ ÀÛ¼ºÇØ¾ß ÇÔ  
-### this Å°¿öµå
-°´Ã¼ ¿ÜºÎ¿¡¼­ °´Ã¼ÀÇ ÇÊµå³ª ¸Þ¼Òµå¿¡ Á¢±ÙÇÒ ¶§ °´Ã¼ÀÇ ÀÌ¸§(º¯¼ö or ½Äº°ÀÚ)À» »ç¿ëÇÑ´Ù¸é,  
-°´Ã¼ ³»ºÎ¿¡¼­´Â ÀÚ½ÅÀÇ ÇÊµå³ª ¸Þ¼Òµå¿¡ Á¢±ÙÇÒ ¶§ this Å°¿öµå »ç¿ë  
+ë³´í†µ ê°ì²´ ë‚´ë¶€ ë°ì´í„°ë¥¼ ì´ìš©í•´ì•¼ í•˜ë©´ ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œë¥¼ ì„ ì–¸, ì•„ë‹ˆë©´ ì •ì  ë©”ì†Œë“œë¡œ í•œì •í•œë‹¤.  
+### ì–•ì€ ë³µì‚¬ vs ê¹Šì€ ë³µì‚¬
+ì–•ì€ ë³µì‚¬: ë°ì´í„°ë¥¼ ê°€ì ¸ì™€ ìƒˆë¡œìš´ ë©”ëª¨ë¦¬ì— í• ë‹¹í•˜ëŠ” ë°©ì‹ì´ ì•„ë‹Œ ë°ì´í„°ë¥¼ ì°¸ì¡°í•˜ëŠ” í˜•ì‹ì˜ ë³µì‚¬ ( ì‹¤ì œ ë°ì´í„° 1ê°œ )    
+ê¹Šì€ ë³µì‚¬: ë°ì´í„°ë¥¼ ê°€ì ¸ì™€ ìƒˆë¡œìš´ ë©”ëª¨ë¦¬ì— í• ë‹¹í•˜ëŠ” ë°©ì‹ì„ ì·¨í•˜ëŠ” í˜•ì‹ì˜ ë³µì‚¬ ( ì‹¤ì œ ë°ì´í„° 2ê°œ )  
+í´ëž˜ìŠ¤ = ë³µí•© ë°ì´í„° = ì°¸ì¡° í˜•ì‹ = ê·¸ëƒ¥ =ìœ¼ë¡œ ë°ì´í„° í• ë‹¹ì‹œ ì–•ì€ ë³µì‚¬ê°€ ë¨   
+C#ì—ëŠ” ì´ë¥¼ ìžë™ìœ¼ë¡œ êµ¬ë¶„í•´ì£¼ëŠ” êµ¬ë¬¸ì´ ë”°ë¡œ ì—†ìœ¼ë¯€ë¡œ,  
+ê°ì²´ë¥¼ íž™ì— ìƒˆë¡œ í• ë‹¹í•˜ì—¬ ë©¤ë²„ë¥¼ ì¼ì¼ížˆ ë³µì‚¬í•´ë„£ì„ êµ¬ë¬¸ì„ ì§ì ‘ ìž‘ì„±í•´ì•¼ í•¨  
+### this í‚¤ì›Œë“œ
+ê°ì²´ ì™¸ë¶€ì—ì„œ ê°ì²´ì˜ í•„ë“œë‚˜ ë©”ì†Œë“œì— ì ‘ê·¼í•  ë•Œ ê°ì²´ì˜ ì´ë¦„(ë³€ìˆ˜ or ì‹ë³„ìž)ì„ ì‚¬ìš©í•œë‹¤ë©´,  
+ê°ì²´ ë‚´ë¶€ì—ì„œëŠ” ìžì‹ ì˜ í•„ë“œë‚˜ ë©”ì†Œë“œì— ì ‘ê·¼í•  ë•Œ this í‚¤ì›Œë“œ ì‚¬ìš©  
 ```
 class Dog
 {
-	private string DogName; // SetNameÀÇ ¸Å°³º¯¼ö¿¡ ÀÖ´Â DogName°ú ´Ù¸¥ Å¬·¡½ºÀÇ ÇÊµå  
+	private string DogName; // SetNameì˜ ë§¤ê°œë³€ìˆ˜ì— ìžˆëŠ” DogNameê³¼ ë‹¤ë¥¸ í´ëž˜ìŠ¤ì˜ í•„ë“œ  
 
-	public void SetName( string DogName ) // Dog Å¬·¡½º¿¡ ¼±¾ðµÈ ÇÊµå¿Í ´Ù¸¥ ¸Å°³º¯¼ö°¡ ¿ÜºÎ·ÎºÎÅÍ Àü´ÞµÊ  
+	public void SetName( string DogName ) // Dog í´ëž˜ìŠ¤ì— ì„ ì–¸ëœ í•„ë“œì™€ ë‹¤ë¥¸ ë§¤ê°œë³€ìˆ˜ê°€ ì™¸ë¶€ë¡œë¶€í„° ì „ë‹¬ë¨  
 	{
-		this.DogName = DogName; // this Å°¿öµå·Î ¼­·Î ´Ù¸¥ µÎ DogNameÀÌ ¸íÈ®ÇÏ°Ô ±¸ºÐµÊ
+		this.DogName = DogName; // this í‚¤ì›Œë“œë¡œ ì„œë¡œ ë‹¤ë¥¸ ë‘ DogNameì´ ëª…í™•í•˜ê²Œ êµ¬ë¶„ë¨
 	}
 }
 ```
-### this() »ý¼ºÀÚ
-Å°¿öµå this°¡ °´Ã¼ ³»ºÎ¿¡¼­ ÀÚ±â Å¬·¡½ºÀÇ ÇÊµå³ª ¸Þ¼­µå¸¦ °¡¸®Ä×´Ù¸é,  
-»ý¼ºÀÚ this()´Â ÀÚ±âÀÇ »ý¼ºÀÚ¸¦ °¡¸®Å´  
+### this() ìƒì„±ìž
+í‚¤ì›Œë“œ thisê°€ ê°ì²´ ë‚´ë¶€ì—ì„œ ìžê¸° í´ëž˜ìŠ¤ì˜ í•„ë“œë‚˜ ë©”ì„œë“œë¥¼ ê°€ë¦¬ì¼°ë‹¤ë©´,  
+ìƒì„±ìž this()ëŠ” ìžê¸°ì˜ ìƒì„±ìžë¥¼ ê°€ë¦¬í‚´  
 ```
 class MyClass
 {
@@ -74,48 +73,48 @@ class MyClass
 		this.a = 5425;
 	}
 
-	public MyClass(int b) : this() // this()´Â MyClass¸¦ È£ÃâÇÏ´Â °Í
+	public MyClass(int b) : this() // this()ëŠ” MyClassë¥¼ í˜¸ì¶œí•˜ëŠ” ê²ƒ
 	{
 		this.b = b;
 	}
 	
-	public Mylass(int b, int c) : this( b ) // this( b )´Â MyClass(int b)¸¦ È£ÃâÇÏ´Â °Í 
+	public Mylass(int b, int c) : this( b ) // this( b )ëŠ” MyClass(int b)ë¥¼ í˜¸ì¶œí•˜ëŠ” ê²ƒ 
 	{
 		this.c = c;
 	}
 }
 ```
-À§´Â ¿À¹ö·ÎµùÀ» ¿¹½Ã·Î ¼³¸íÇÑ °ÍÀÓ  
-### Á¢±ÙÇÑÁ¤ÀÚ
-1. Å¬·¡½ºÀÇ ¸â¹öµéÀ» »ç¿ëÀÚ·ÎºÎÅÍ º¸È£ÇÏ°íÀÚ ¿©¼¸ °¡ÁöÀÇ Á¢±ÙÇÑÁ¤ÀÚ¸¦ °¡Áü  
+ìœ„ëŠ” ì˜¤ë²„ë¡œë”©ì„ ì˜ˆì‹œë¡œ ì„¤ëª…í•œ ê²ƒìž„  
+### ì ‘ê·¼í•œì •ìž
+1. í´ëž˜ìŠ¤ì˜ ë©¤ë²„ë“¤ì„ ì‚¬ìš©ìžë¡œë¶€í„° ë³´í˜¸í•˜ê³ ìž ì—¬ì„¯ ê°€ì§€ì˜ ì ‘ê·¼í•œì •ìžë¥¼ ê°€ì§  
 public, protected, private, internal, protected internal, private  
-ÆÛºí¸¯: ³»/¿ÜºÎ ¸ðµç °÷¿¡¼­ Á¢±Ù °¡´É  
-ÇÁ·ÎÅÃÆ¼µå: ÀÚ½ÅÀ» »ó¼ÓÇÑ ÀÚ½Ä Å¬·¡½º¿¡¼­ Á¢±Ù °¡´É  
-ÇÁ¶óÀÌº£ÀÕ: Å¬·¡½ºÀÇ ³»ºÎ¿¡¼­ Á¢±Ù °¡´É  
-ÀÎÅÍ³Î: °°Àº ¾î¼Àºí¸®=ÇÁ·ÎÁ§Æ® ÆÄÀÏ¿¡ ÀÖ´Â ÄÚµå¿¡¼­ publicÀ¸·Î Á¢±Ù °¡´É  
-ÇÁ·ÎÅÃÆ¼µå ÀÎÅÍ³Î: °°Àº ¾î¼Àºí¸®=ÇÁ·ÎÁ§Æ® ÆÄÀÏ¿¡ ÀÖ´Â ÄÚµå¿¡¼­ protected·Î Á¢±Ù °¡´É  
-ÇÁ¶óÀÌº£ÀÕ ÇÁ·ÎÅÃÆ¼µå: °°Àº ¾î¼Àºí¸®=ÇÁ·ÎÁ§Æ® ÆÄÀÏ¿¡ ÀÖ´Â Å¬·¡½º¿¡¼­ »ó¼Ó¹Þ´Â Å¬·¡½º ³»ºÎ¿¡¼­ Á¢±Ù °¡´É  
-### »ó¼ÓÀ¸·Î ÄÚµå ÀçÈ°¿ë
-¹æ½ÄÀº ¾Æ·¡¿Í °°À½  
+í¼ë¸”ë¦­: ë‚´/ì™¸ë¶€ ëª¨ë“  ê³³ì—ì„œ ì ‘ê·¼ ê°€ëŠ¥  
+í”„ë¡œíƒí‹°ë“œ: ìžì‹ ì„ ìƒì†í•œ ìžì‹ í´ëž˜ìŠ¤ì—ì„œ ì ‘ê·¼ ê°€ëŠ¥  
+í”„ë¼ì´ë² ìž‡: í´ëž˜ìŠ¤ì˜ ë‚´ë¶€ì—ì„œ ì ‘ê·¼ ê°€ëŠ¥  
+ì¸í„°ë„: ê°™ì€ ì–´ì…ˆë¸”ë¦¬=í”„ë¡œì íŠ¸ íŒŒì¼ì— ìžˆëŠ” ì½”ë“œì—ì„œ publicìœ¼ë¡œ ì ‘ê·¼ ê°€ëŠ¥  
+í”„ë¡œíƒí‹°ë“œ ì¸í„°ë„: ê°™ì€ ì–´ì…ˆë¸”ë¦¬=í”„ë¡œì íŠ¸ íŒŒì¼ì— ìžˆëŠ” ì½”ë“œì—ì„œ protectedë¡œ ì ‘ê·¼ ê°€ëŠ¥  
+í”„ë¼ì´ë² ìž‡ í”„ë¡œíƒí‹°ë“œ: ê°™ì€ ì–´ì…ˆë¸”ë¦¬=í”„ë¡œì íŠ¸ íŒŒì¼ì— ìžˆëŠ” í´ëž˜ìŠ¤ì—ì„œ ìƒì†ë°›ëŠ” í´ëž˜ìŠ¤ ë‚´ë¶€ì—ì„œ ì ‘ê·¼ ê°€ëŠ¥  
+### ìƒì†ìœ¼ë¡œ ì½”ë“œ ìž¬í™œìš©
+ë°©ì‹ì€ ì•„ëž˜ì™€ ê°™ìŒ  
 ```
-class ±â¹Ý Å¬·¡½º
+class ê¸°ë°˜ í´ëž˜ìŠ¤
 {
 }
-class ÆÄ»ý Å¬·¡½º : ±â¹Ý Å¬·¡½º
+class íŒŒìƒ í´ëž˜ìŠ¤ : ê¸°ë°˜ í´ëž˜ìŠ¤
 {
 }
 ```
-±â¹Ý Å¬·¡½ºÀÇ »ý¼º  
-ÆÄ»ý Å¬·¡½ºÀÇ »ý¼º  
-ÆÄ»ý Å¬·¡½ºÀÇ ¼Ò¸ê 
-±â¹Ý Å¬·¡½ºÀÇ ¼Ò¸ê ¼ø¼­·Î ÀÛµ¿ÇÔ  
-### base Å°¿öµå
-±â¹Ý Å¬·¡½ºÀÇ »ý¼ºÀÚ°¡ ¸Å°³º¯¼ö¸¦ ÀÔ·Â¹Þµµ·Ï ¼±¾ðµÇ¾î ÀÖ´Â °æ¿ì base Å°¿öµå¸¦ ÀÌ¿ë    
-±×·¯¸é ÆÄ»ý Å¬·¡½ºÀÇ »ý¼ºÀÚ¿¡¼­ ±â¹Ý Å¬·¡½ºÀÇ »ý¼ºÀÚ·Î ¸Å°³º¯¼ö¸¦ ³Ñ°ÜÁÙ ¼ö ÀÖÀ½  
-public Derived(string Nmae) : base(Name) ÀÌ·± ÇüÅÂ  
-*sealed ÇÑÁ¤ÀÚ*¸¦ class ¾Õ¿¡ ºÙÀÌ¸é »ó¼ÓÀÌ ºÀÀÎ
-### ±â¹Ý Å¬·¡½º¿Í ÆÄ»ý Å¬·¡½º »çÀÌ º¯È¯ ?????????????????????????
-¹Î¿µ, ¹Î¼­´Â ´Ù¸¥ °³Ã¼ÀÌ³ª ÀÎ°£ÀÌ¶ó´Â °øÅëÁ¡ ¶§¹®¿¡ ¹­ÀÓ  
+ê¸°ë°˜ í´ëž˜ìŠ¤ì˜ ìƒì„±  
+íŒŒìƒ í´ëž˜ìŠ¤ì˜ ìƒì„±  
+íŒŒìƒ í´ëž˜ìŠ¤ì˜ ì†Œë©¸ 
+ê¸°ë°˜ í´ëž˜ìŠ¤ì˜ ì†Œë©¸ ìˆœì„œë¡œ ìž‘ë™í•¨  
+### base í‚¤ì›Œë“œ
+ê¸°ë°˜ í´ëž˜ìŠ¤ì˜ ìƒì„±ìžê°€ ë§¤ê°œë³€ìˆ˜ë¥¼ ìž…ë ¥ë°›ë„ë¡ ì„ ì–¸ë˜ì–´ ìžˆëŠ” ê²½ìš° base í‚¤ì›Œë“œë¥¼ ì´ìš©    
+ê·¸ëŸ¬ë©´ íŒŒìƒ í´ëž˜ìŠ¤ì˜ ìƒì„±ìžì—ì„œ ê¸°ë°˜ í´ëž˜ìŠ¤ì˜ ìƒì„±ìžë¡œ ë§¤ê°œë³€ìˆ˜ë¥¼ ë„˜ê²¨ì¤„ ìˆ˜ ìžˆìŒ  
+public Derived(string Nmae) : base(Name) ì´ëŸ° í˜•íƒœ  
+*sealed í•œì •ìž*ë¥¼ class ì•žì— ë¶™ì´ë©´ ìƒì†ì´ ë´‰ì¸
+### ê¸°ë°˜ í´ëž˜ìŠ¤ì™€ íŒŒìƒ í´ëž˜ìŠ¤ ì‚¬ì´ ë³€í™˜ ?????????????????????????
+ë¯¼ì˜, ë¯¼ì„œëŠ” ë‹¤ë¥¸ ê°œì²´ì´ë‚˜ ì¸ê°„ì´ë¼ëŠ” ê³µí†µì  ë•Œë¬¸ì— ë¬¶ìž„  
 ```
 class Human
 {
@@ -130,7 +129,7 @@ class Minsu : Human
 	public void readingbook() { ... }
 }
 ```
-ÀÌ¸¦ ´ÙÀ½°ú °°ÀÌ ÀÍ¼÷ÇÏ°Ô ÀÎ°£Àº ÀÎ°£, ¹Î¿µÀº ¹Î¿µ, ¹Î¼­´Â ¹Î¼­·Î °¢°¢ Ç¥Çö °¡´É  
+ì´ë¥¼ ë‹¤ìŒê³¼ ê°™ì´ ìµìˆ™í•˜ê²Œ ì¸ê°„ì€ ì¸ê°„, ë¯¼ì˜ì€ ë¯¼ì˜, ë¯¼ì„œëŠ” ë¯¼ì„œë¡œ ê°ê° í‘œí˜„ ê°€ëŠ¥  
 ```
 Human human = new Human();
 Human.Say();
@@ -143,7 +142,7 @@ Minsu minsu = new minsu();
 Minsu.Say();
 Minsu.Readingbook();
 ```
-ÇÑÆí ¹Î¿µµµ ÀÎ°£, ¹Î¼­µµ ÀÎ°£, ¹ÎÈ£µµ ÀÎ°£ÀÌ¶ó´Â ÄÚµåµµ °¡´É  
+í•œíŽ¸ ë¯¼ì˜ë„ ì¸ê°„, ë¯¼ì„œë„ ì¸ê°„, ë¯¼í˜¸ë„ ì¸ê°„ì´ë¼ëŠ” ì½”ë“œë„ ê°€ëŠ¥  
 ```
 Human human = new Human();
 human.Say();
@@ -162,56 +161,55 @@ Minsu minsu = (Minsu)human;
 Minsu.Say();
 Minsu.Readingbook();
 ```
-ÀÌ·±½ÄÀ¸·Î Á·º¸¸¦ ¿À¸£³»¸± ¼ö ÀÖ´Ù.  
-###Çò°¥·Á¼­ Àû´Â Ç®ÀÌ
+ì´ëŸ°ì‹ìœ¼ë¡œ ì¡±ë³´ë¥¼ ì˜¤ë¥´ë‚´ë¦´ ìˆ˜ ìžˆë‹¤.  
+### í—·ê°ˆë ¤ì„œ ì ëŠ” í’€ì´
 Human human = new Human();  
-human = new Minyoung(); ¿¡¼­,   
-humanÀº ÂüÁ¶·Î ¸Þ¸ð¸®¸¦ °¡¸®Å°´Â ¿ªÇÒ  
-»ý¼ºÀÚ Human()´Â °´Ã¼ÀÇ ÃÊ±âÈ­ ¿ªÇÒ (ÃÊ±ê°ª ÇÒ´ç)  
-new ¿¬»êÀÚ´Â ¸Þ¸ð¸®¿¡ ÇÒ´çÇÏ´Â ¿ªÇÒ  
-Áï ¿ø·¡ new Human();·Î ÃÊ±âÈ­µÈ °´Ã¼°¡ ÇÒ´çµÈ ¸Þ¸ð¸®¸¦ ÂüÁ¶ÇÏ´ø humanÀÌ  
-new Minyoung();À¸·Î ÃÊ±âÈ­µÈ °´Ã¼°¡ ÇÒ´çµÈ ¸Þ¸ð¸®¸¦ ÂüÁ¶ÇÏ°Ô µÈ °Í  
+human = new Minyoung(); ì—ì„œ,   
+humanì€ ì°¸ì¡°ë¡œ ë©”ëª¨ë¦¬ë¥¼ ê°€ë¦¬í‚¤ëŠ” ì—­í•   
+ìƒì„±ìž Human()ëŠ” ê°ì²´ì˜ ì´ˆê¸°í™” ì—­í•  (ì´ˆê¹ƒê°’ í• ë‹¹)  
+new ì—°ì‚°ìžëŠ” ë©”ëª¨ë¦¬ì— í• ë‹¹í•˜ëŠ” ì—­í•   
+ì¦‰ ì›ëž˜ new Human();ë¡œ ì´ˆê¸°í™”ëœ ê°ì²´ê°€ í• ë‹¹ëœ ë©”ëª¨ë¦¬ë¥¼ ì°¸ì¡°í•˜ë˜ humanì´  
+new Minyoung();ìœ¼ë¡œ ì´ˆê¸°í™”ëœ ê°ì²´ê°€ í• ë‹¹ëœ ë©”ëª¨ë¦¬ë¥¼ ì°¸ì¡°í•˜ê²Œ ëœ ê²ƒ  
 <br/> 
-mammal.Bark();°¡ ºÒ°¡´ÉÇÑ ÀÌÀ¯?  
-ÀÌ ½ÃÁ¡¿¡¼­´Â CLRÀÌ mammal¸¦ Mammal Å¸ÀÔÀ¸·Î º¸°í ÀÖ±â¿¡ ¿À·ù  
-C#Àº Çü½Ä °Ë»ç¸¦ ¾ö°ÝÇÏ°Ô ÇÏ´Â °­Çü ¾ð¾î  
-###°­Çü¾ð¾î?
-¸ðµç º¯¼öÀÇ Å¸ÀÔÀÌ ÄÄÆÄÀÏÇÏ¸é¼­ °áÁ¤µÇ´Â ¾ð¾î  
-º¯¼ö¿Í °ª¿¡¼­, Çü ¼±¾ðÀÌ º¯¼ö¿¡ ¼±¾ðµÇ¾î ÀÖÀ¸¸é °­Çü, °ª¿¡ ¿¬°áµÇ¾î ÀÖÀ¸¸é ¾àÇü  
-¼­·Î ´Ù¸¥ Çü »çÀÌÀÇ º¯È¯ÀÌ ±ÝÁöµÇ¾î ÀÖÀ½
-###is¿Í as
-is: °´Ã¼°¡ ÇØ´ç Çü½Ä¿¡ ÇØ´çÇÏ´ÂÁö °Ë»çÇÏ¿© ±× °á°ú¸¦ bool°ªÀ¸·Î ¹ÝÈ¯
-as: Çü½Ä º¯È¯ ¿¬»êÀÚ¿Í ºñ½ÁÇÏ³ª, Çüº¯È¯¿¡ ½ÇÆÐÇÒ ¶§ ¿¹¿Ü¸¦ ´øÁö´Â ´ë½Å °´Ã¼ ÂüÁ¶¸¦ null·Î ¸¸µê  
+mammal.Bark();ê°€ ë¶ˆê°€ëŠ¥í•œ ì´ìœ ?  
+ì´ ì‹œì ì—ì„œëŠ” CLRì´ mammalë¥¼ Mammal íƒ€ìž…ìœ¼ë¡œ ë³´ê³  ìžˆê¸°ì— ì˜¤ë¥˜  
+C#ì€ í˜•ì‹ ê²€ì‚¬ë¥¼ ì—„ê²©í•˜ê²Œ í•˜ëŠ” ê°•í˜• ì–¸ì–´  
+### ê°•í˜•ì–¸ì–´?
+ëª¨ë“  ë³€ìˆ˜ì˜ íƒ€ìž…ì´ ì»´íŒŒì¼í•˜ë©´ì„œ ê²°ì •ë˜ëŠ” ì–¸ì–´  
+ë³€ìˆ˜ì™€ ê°’ì—ì„œ, í˜• ì„ ì–¸ì´ ë³€ìˆ˜ì— ì„ ì–¸ë˜ì–´ ìžˆìœ¼ë©´ ê°•í˜•, ê°’ì— ì—°ê²°ë˜ì–´ ìžˆìœ¼ë©´ ì•½í˜•  
+ì„œë¡œ ë‹¤ë¥¸ í˜• ì‚¬ì´ì˜ ë³€í™˜ì´ ê¸ˆì§€ë˜ì–´ ìžˆìŒ
+### isì™€ as
+is: ê°ì²´ê°€ í•´ë‹¹ í˜•ì‹ì— í•´ë‹¹í•˜ëŠ”ì§€ ê²€ì‚¬í•˜ì—¬ ê·¸ ê²°ê³¼ë¥¼ boolê°’ìœ¼ë¡œ ë°˜í™˜
+as: í˜•ì‹ ë³€í™˜ ì—°ì‚°ìžì™€ ë¹„ìŠ·í•˜ë‚˜, í˜•ë³€í™˜ì— ì‹¤íŒ¨í•  ë•Œ ì˜ˆì™¸ë¥¼ ë˜ì§€ëŠ” ëŒ€ì‹  ê°ì²´ ì°¸ì¡°ë¥¼ nullë¡œ ë§Œë“¦  
 ```
 Human human = new Minyoung();
 Minyoung minyoung;
 
-if (human is Minyoung) // human °´Ã¼°¡ Minyoung Çü½ÄÀÎÁö È®ÀÎ
+if (human is Minyoung) // human ê°ì²´ê°€ Minyoung í˜•ì‹ì¸ì§€ í™•ì¸
 {
 ...
 }
 ```
-<br/>
 ```
 Mammal mammal2 = new Cat();
 
-Cat cat = mammal2 as Cat; // (Cat)mammal2 ²Ã ´ë½Å as ¿¬»êÀÚ¸¦ »ç¿ëÇÑ °Í
-if (cat != null) // º¯È¯ ½ÇÆÐ½Ã catÀº nullÀÌ µÇ±â¿¡ ÀÛ¼ºµÈ Á¶°Ç
+Cat cat = mammal2 as Cat; // (Cat)mammal2 ê¼´ ëŒ€ì‹  as ì—°ì‚°ìžë¥¼ ì‚¬ìš©í•œ ê²ƒ
+if (cat != null) // ë³€í™˜ ì‹¤íŒ¨ì‹œ catì€ nullì´ ë˜ê¸°ì— ìž‘ì„±ëœ ì¡°ê±´
 {
 	cat.Meow
 }
 ```
-### ¿À¹ö¶óÀÌµù°ú ´ÙÇü¼º
-´ÙÇü¼ºPolymorphismÀº °´Ã¼°¡ ¿©·¯ ÇüÅÂ¸¦ °¡Áú ¼ö ÀÖÀ½À» ÀÇ¹Ì
+### ì˜¤ë²„ë¼ì´ë”©ê³¼ ë‹¤í˜•ì„±
+ë‹¤í˜•ì„±Polymorphismì€ ê°ì²´ê°€ ì—¬ëŸ¬ í˜•íƒœë¥¼ ê°€ì§ˆ ìˆ˜ ìžˆìŒì„ ì˜ë¯¸
 ```
 class ArmorSuite
 {
-	public virtual void Initialize() // ÃßÈÄ ¿À¹ö¶óÀÌµùÀ» ÇÏ·Á¸é ¸Þ¼Òµå°¡ virtual Å°¿öµå·Î ¼±¾ðµÇ¾î¾ß ÇÔ
+	public virtual void Initialize() // ì¶”í›„ ì˜¤ë²„ë¼ì´ë”©ì„ í•˜ë ¤ë©´ ë©”ì†Œë“œê°€ virtual í‚¤ì›Œë“œë¡œ ì„ ì–¸ë˜ì–´ì•¼ í•¨
 	{
 		Console.WirteLine("Armored");
 	}
 }
-¶ó´Â º£ÀÌ½º¿¡¼­,
+ë¼ëŠ” ë² ì´ìŠ¤ì—ì„œ,
 class IronMan : ArmorSuite
 {
 	//...
@@ -226,4 +224,4 @@ class IronMan : ArmorSuite
 	}
 }
 ```
-private·Î ¼±¾ðÇÑ ¸Þ¼Òµå´Â ¿À¹ö¶óÀÌµùÇÒ ¼ö ¾øÀ½  
+privateë¡œ ì„ ì–¸í•œ ë©”ì†Œë“œëŠ” ì˜¤ë²„ë¼ì´ë”©í•  ìˆ˜ ì—†ìŒ  
