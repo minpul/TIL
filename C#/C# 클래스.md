@@ -222,3 +222,94 @@ class Base
 		Console.WriteLine("Base.MyMethod()");
 	}
 }
+
+class Derived : Base
+{
+	public new void MyMethod()
+	{
+		Console.WriteLine("Derived.MyMethod()");
+	}
+}
+
+Derived derived = new Derived();  
+derived.MyMethod(); // Base.MyMethod()를 감추고 Derived.MyMethod()만 출력  
+```
+*new* 한정자로 수식하여 숨길 수 있다  
+이름 그대로 메소드를 숨기고 있을 뿐 오버라이딩과 다르게 작동함  
+만약 아래와 같이 입력하면 
+```
+Base baseOrDerived = new Derived();
+baseOrDerived.MyMethod(); // 숨겨져있던 "Base.MyMethod();"이 출력됨  
+```
+### 오버라이딩 봉인하기
+클래스 상속 봉인 : 한정자 public
+메소드 오버라이딩 봉인 : 키워드 sealed
+단, "virtual로 선언된 가상 메소드를 오버라이딩한 버전의 메소드"만 봉인 가능  
+why? 애초에 virtual로 선언했다는건 오버라이딩하려 했다는 이야기니까  
+봉인할거면 vitual 선언을 안하면 되는 것
+ex> public sealed override void SealMe()  
+### 읽기 전용 필드
+const double pi = 3.14159265359;
+위는 상수
+```
+class Configuration
+{
+	private readonly int min; // 읽기 전용 필드로 선언하면 생성자 안에서만 초기화가 가능함
+	private readonly int max;
+
+	public Configuration(int v1, int v2)
+	{
+		min = v1;
+		min = v2;
+	}
+}
+```
+### 클래스 중첩
+클래스 안에 클래스를 선언
+```
+class Outer
+{
+	class Inner
+	{
+		...
+	}
+}
+```
+안의 클래스는 자신이 소속된 클래스의 모든 멤버(private까지도)에 자유롭게 접근  
+### 클래스 분할
+클래스를 분할해서 선언  
+하나의 클래스처럼 사용하면 됨  
+```
+partial class Maclass			// partial을 이용한 첫번째 조각
+{
+	public void Method1() {}
+}
+partial class Mclass			// partial을 이용한 두번째 조각
+{
+	public void Method2() {}
+}
+// ...
+
+Maclass obj = new Maclass();
+
+obj.Method1();
+obj.Method2();
+```
+### 확장 메소드
+클래스의 기능을 확장하는 기법  
+새로운 파생 클래스를 만들어 필드와 메소드를 추가하는 상속과 다른 개념  
+방법  
+1. 메소드를 static 한정자로 수식하여 선언  
+2. 메소드의 첫번째 매개변수는 반드시 this 키워드 뒤에 확장하고자 하는 클래스의 인스턴스  
+3. 그 뒤 매개변수 목록은 실제 확장 메소드 호출시 입력되는 매개변수  
+```
+namespace 네임스페이스 이름
+{
+	public static class 클래스이름
+	{
+		public static 반환_형식 메소드이름( this 대상형식 식별자, 매개변수_목록 )
+		{
+		...
+		}
+	}
+}	
